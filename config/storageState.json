@@ -1,0 +1,25 @@
+{
+  "cookies": [
+    {
+      "name": "sessionId",
+      "value": "abc123",
+      "domain": "booking.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "http://booking.com/",
+      "localStorage": [
+        {
+          "name": "preferencia",
+          "value": "valorPreferencia"
+        }
+      ]
+    }
+  ]
+}
