@@ -24,5 +24,5 @@ export default {
     timezoneId: 'America/New_York',
   },
   workers: 4,
-  timeout: 30000,
+  timeout: 150000,
 };
