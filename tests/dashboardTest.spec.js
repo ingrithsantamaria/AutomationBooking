@@ -6,6 +6,7 @@ test('select random list item', async ({ page }) => {
   await dashboardPage.closeDismissSignInfo()
   await dashboardPage.clickToShowListCities();
   await dashboardPage.selectRandomListCities();
+  await dashboardPage.clickIfVisiblePopupSign()
   await dashboardPage.selectStartDate()
   await dashboardPage.selecEndDate()
 //   await dashboardPage.selectDates("10", "20")
